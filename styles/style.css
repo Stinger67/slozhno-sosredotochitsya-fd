@@ -6,12 +6,13 @@
     background-attachment: fixed;
     background-color: var(--bg-color-alternative);
 
+    display: flex;
+    flex-direction: column;
     gap: 40px;
     padding: 0 10px 0 10px;
-    display: grid;
     grid-template-columns: 1fr;
 }
-
+ 
 .header {
     position: relative;
     display: grid;
@@ -281,7 +282,6 @@ footer::before {
 .footer__title {
     justify-self: center;
     align-self: center;
-    padding: 0 3px 0 4px;
 
     font-family: "IBM Plex mono", sans-serif;
     font-weight: 700;
