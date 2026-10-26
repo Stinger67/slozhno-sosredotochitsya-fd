@@ -200,7 +200,7 @@ footer::before {
     line-height: 23.4px;
     letter-spacing: 0%;
     color: var(--accent-color);
-    width: 100%;
+    width: 355px;
 }
 
 .cards__direction {
