@@ -229,7 +229,7 @@
 .cards-images {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 40px;
 }
 
@@ -239,7 +239,7 @@
 
 .cards-img-conatiner {
     display: grid;
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -379,7 +379,7 @@
   }
 
   .cards__title {
-    min-width: 236px;
+    width: 236px;
   }
 
   .cards-conatiner {
@@ -401,6 +401,7 @@
 
   .cards-images {
     display: grid;
+    gap: 20px;
   }
 
   .cards__img-item {
@@ -408,6 +409,7 @@
     height: 100%;
     object-fit: cover;
   }
+
 
   .cards-img-conatiner {
     display: grid;
@@ -485,7 +487,7 @@
   }
 
   .cards__title {
-    min-width: 315px;
+    width: 315px;
   }
 
   .cards-consentration-conatiner {
