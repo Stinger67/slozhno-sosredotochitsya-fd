@@ -185,10 +185,6 @@
   outline: 1px solid var(--text-color);
 }
 
-.main {
-  margin-top: 40px;
-}
-
 .cards {
   display: grid;
   gap: 20px;
@@ -306,6 +302,7 @@
 @media (width >= 768px) {
   .page {
     padding: 0 20px 0 20px;
+    gap: var(--desctop-page-gap);
   }
 
   .header {
@@ -350,7 +347,7 @@
     margin: 0;
     margin-left: -20px;
     margin-bottom: 162px;
-    margin-top: 145px;
+    margin-top: 173px;
   }
 
   .header__title__direction {
@@ -455,10 +452,6 @@
 }
 
 @media (width >= 1024px) {
-  .page {
-    gap: var(--desctop-page-gap);
-  }
-
   .header {
     min-height: 748px;
   }
