@@ -5,6 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
 
+  gap: 40px;
   padding: 0 10px 0 10px;
   display: grid;
   grid-template-columns: 1fr;
@@ -484,10 +485,9 @@
   }
 
   .cards-consentration-conatiner {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: min-content 1fr;
-    gap: 20px;
+    margin-bottom: -20px;
   }
 }
 
